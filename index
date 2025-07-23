@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pão Quentinho - Receitas e Dicas</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div>
+    <header>
+      <h1>Bem-vindo à Pão Quentinho</h1>
+      <p>Receitas, dicas e muito carinho para deixar seu dia mais saboroso!</p>
+    </header>
+
+    <section>
+      <h2>Sobre a Padaria</h2>
+      <p>Somos apaixonados por pães e bolos feitos com amor. Nossa missão é compartilhar receitas caseiras e encantar sua cozinha com cheirinho de forno quente.</p>
+      <p>De pães rústicos a bolos de vó, tudo aqui é feito com simplicidade e sabor. Explore nosso cantinho e descubra novas delícias!</p>
+    </section>
+  </div>
+
+  <aside>
+    <h3>Dica do Forno</h3>
+    <p>Antes de assar seu pão, coloque uma tigela com água dentro do forno. O vapor ajuda a formar aquela casquinha crocante deliciosa!</p>
+    <p>Acompanhe nosso blog para mais truques saborosos!</p>
+  </aside>
+
+  <br /><br />
+  <p id="messagem-contato"><b>Fale conosco ou envie sua receita favorita:</b></p>
+
+  <form>
+    <fieldset>
+      <label for="name">Seu nome:</label>
+      <input type="text" id="name" name="name" placeholder="Ex: Dona Maria" />
+
+      <label for="role">Você é:</label>
+      <select name="role" id="role">
+        <option selected value="">Escolha uma opção</option>
+        <option value="cliente">Cliente fiel</option>
+        <option value="confeiteiro">Confeiteiro(a)</option>
+        <option value="curioso">Apenas curioso(a)</option>
+      </select>
+
+      <label for="message"><b>Sua mensagem ou receita:</b></label>
+      <textarea id="message" rows="10" cols="50" name="message" placeholder="Conte aqui sua dica ou peça uma receita especial..."></textarea>
+
+      <button type="submit">Enviar mensagem</button>
+      <button type="reset">Limpar tudo</button>
+    </fieldset>
+  </form>
+
+  <footer>
+    <p>&copy; 2025 Pão Quentinho</p>
+    <p>Todos os direitos reservados.</p>
+    <p>Entre em contato: <a href="mailto:contato@paoquentinho.com">contato@paoquentinho.com</a></p>
+  </footer>
+</body>
+</html>
